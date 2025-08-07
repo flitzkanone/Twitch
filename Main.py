@@ -4,7 +4,7 @@ import subprocess
 from glob import glob
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
-TWITCH_VOD_URL = "https://www.twitch.tv/videos/DEIN_VOD_ID"
+TWITCH_VOD_URL = "https://www.twitch.tv/videos/2527829496"
 OUTPUT_DIR = "clips"
 CLIP_LENGTH = 300  # Sekunden
 
